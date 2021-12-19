@@ -511,11 +511,12 @@ a {
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
+
 .qualification [data-content] {
   display: none;
 }
 
-.qualification [data-content] {
+.qualification__active[data-content] {
   display: block;
 }
 
