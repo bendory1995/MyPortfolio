@@ -472,11 +472,9 @@ a {
   font-weight: var(--font-medium);
   cursor: pointer;
 }
-
 .qualification__button:hover {
   color: var(--first-color);
 }
-
 .qualification__icon {
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
@@ -513,6 +511,14 @@ a {
   background-color: var(--first-color);
   transform: translate(6px, -7px);
 }
+.qualification [data-content] {
+  display: none;
+}
+
+.qualification [data-content] {
+  display: block;
+}
+
 /*==================== SERVICES ====================*/
 
 /* Active Modal */
