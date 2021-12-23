@@ -27,7 +27,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -60,6 +60,7 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -174,15 +175,17 @@
                 </span>
               </div>
             </div>
-          </div>
 
-          <div class="about__buttons">
-            <a
-              download=""
-              href="assets/pdf/resume.pdf"
-              class="button button-flex"
-              >Download Resume<i class="uil uil-download-alt button__icon"></i>
-            </a>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/resume.pdf"
+                class="button button-flex"
+                >Download Resume<i
+                  class="uil uil-download-alt button__icon"
+                ></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -445,7 +448,7 @@
 
       <!--==================== SERVICES ====================-->
       <section class="services section" id="services">
-        <h2 class="section__title">Servuces</h2>
+        <h2 class="section__title">Services</h2>
         <span class="section__subtitle">What I offer</span>
         <div class="services__container container grid">
           <!-- Services 1-->
@@ -771,11 +774,32 @@
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
-      <div></div>
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Alex</h1>
+            <span class="footer__subtitle">Software Engineer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
-    <!--==================== SCROLL TOP ====================-->
-
+    <!--==================== SCROLL UP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
