@@ -959,6 +959,7 @@ a {
   .skills__container,
   .portfolio__content,
   .project__container,
+  .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
